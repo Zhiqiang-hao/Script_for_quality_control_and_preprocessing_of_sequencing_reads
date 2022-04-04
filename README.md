@@ -15,6 +15,7 @@ The prequisite softwares can be obtained by visiting their released website. For
 User can install and use those softwares with linux-like system.
 
 By integrating those softwares, we could finish the quality control and preprocessing for high-throughput data in multiple way. In addition, we provide the simple usage of those software for the users.
+
 FastQC can be either as an interactive  graphical application. Alternatively, you can run the program in non-interactive way. If you don't specific any files to process the program will try to open the interactive application. Click the file button and choose fastq files located in your computer. Click the confirm button, and wait your reports about several minutes. Run fastqc from the command line like this:
 fastqc -t 8 -o outdir SRR2061397_1.fastq  SRR2061397_2.fastq  SRR2061398_1.fastq   SRR2061397_2.fastq
 Parameter description: -t for CPU number, -o for output directory
